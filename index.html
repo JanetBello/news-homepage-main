@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- fonts family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | News homepage</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="sr-only">News homepage</h1>
+    </header>
+    <main class="container">
+      <nav class="nav-bar">
+        <img src="./assets/images/logo.svg" alt=" a logo" class="logo" />
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">new</a></li>
+          <li><a href="#">popular</a></li>
+          <li><a href="#">trending</a></li>
+          <li><a href="#">categories</a></li>
+        </ul>
+      </nav>
+
+      <article class="article-card">
+        <section class="sec-1">
+          <picture>
+            <source
+              srcset="./assets/images/image-web-3-desktop.jpg"
+              media="(min-width: 800px)"
+            />
+            <img src="./assets/images/image-web-3-mobile.jpg" />
+          </picture>
+        </section>
+        <section class="sec-2">
+          <!-- <div class="twin twin-1"> -->
+          <h2>The Bright Future of Web 3.0 ?</h2>
+          <!-- </div> -->
+        </section>
+        <section class="sec-3">
+          <!-- <div class="twin twin-2"> -->
+          <p>
+            We dive into the next evolution of web that claims to put the power
+            of the platforms back into the hands of the people. But is it
+            fulling it's promise ?
+          </p>
+          <!-- </div> -->
+          <div class="cta">
+            <a href="#">read more</a>
+          </div>
+        </section>
+        <section class="aside">
+          <div class="a-summary">
+            <div class="h3"><h3>New</h3></div>
+            <div class="h4">
+              <h4><a href="">Hydrogen VS Electric Cars</a></h4>
+            </div>
+            <p>Will hydrogen-fueled cars ever catch up to Evs?</p>
+            <br />
+            <hr width="100%" />
+            <br />
+          </div>
+          <div class="a-summary">
+            <div class="h4">
+              <h4><a href="">The Downsides Of AI Artistry</a></h4>
+            </div>
+            <p>
+              What are the positives adverse effects of on-demand AI image
+              generation?
+            </p>
+            <br />
+            <hr width="100%" />
+            <br />
+          </div>
+          <div class="a-summary funding">
+            <div class="h4">
+              <h4><a href="">Is VC Funding Dryng Up?</a></h4>
+            </div>
+            <p>
+              Private funding by VC firms is down by 50% YOY. We take at what
+              that means.
+            </p>
+          </div>
+        </section>
+        <section class="sec-summary">
+          <div class="gadget">
+            <div class="sec-img retro">
+              <img
+                src="./assets/images/image-retro-pcs.jpg"
+                alt=" A computer "
+              />
+            </div>
+            <div class="summary">
+              <h5>01</h5>
+              <h6><a href="">Reviving Retro Computers</a></h6>
+              <p>What happens when ones pc's are given modern upgrades?</p>
+            </div>
+          </div>
+
+          <div class="gadget">
+            <div class="sec-img-laptop">
+              <img src="./assets/images/image-top-laptops.jpg" alt="A laptop" />
+            </div>
+            <div class="summary">
+              <h5>02</h5>
+              <h6><a href="">Top 10 Laptops Of 2023</a></h6>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+          <div class="gadget">
+            <div class="sec-img">
+              <img
+                src="./assets/images/image-gaming-growth.jpg"
+                alt="Game pad"
+              />
+            </div>
+            <div class="summary">
+              <h5>03</h5>
+              <h6><a href="">The Growth Of Gaming</a></h6>
+              <p>How the pandemic has sparkle fresh opportunities.</p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Janet Bello</a>.
+    </footer>
+  </body>
+</html>
