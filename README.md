@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://www.frontendmentor.io/solutions/mobilefirst-preview-card-component-using-variable-fonts-html-and-css-y44D1x-HM)
-- Live Site URL: [live site](https://iediong.github.io/fem-stats-preview-card-component/)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/responsive-news-homepage-er0KG5iH2_)
+- Live Site URL: [live site](https://news-homepage-main-six-livid.vercel.app//)
 
 ## My process
 
